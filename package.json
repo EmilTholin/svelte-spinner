@@ -1,0 +1,9 @@
+{
+  "name": "svelte-spinner",
+  "version": "0.0.1",
+  "description": "A Svelte SVG loading spinner",
+  "main": "index.html",
+  "author": "Emil Tholin @tholle1234",
+  "license": "MIT",
+  "repository": "EmilTholin/svelte-spinner"
+}
