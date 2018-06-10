@@ -1,6 +1,6 @@
 {
   "name": "svelte-spinner",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Svelte SVG loading spinner",
   "main": "index.html",
   "author": "Emil Tholin @tholle1234",
