@@ -1,27 +1,27 @@
 <h1>Svelte Spinner</h1>
 <div>
-  <label>Size: {{size}}px</label>
+  <label>Size: {size}px</label>
   <input type="range" min="0" max="100" step="1" bind:value="size"/>
 
-  <label>Speed: {{speed}}ms</label>
+  <label>Speed: {speed}ms</label>
   <input type="range" min="50" max="2000" step="10" bind:value="speed">
 
   <label>Color</label>
-  <input type="text" value="{{color}}" bind:value="color">
+  <input type="text" value="{color}" bind:value="color">
 
-  <label>Thickness: {{thickness}}</label>
+  <label>Thickness: {thickness}</label>
   <input type="range" min="0.1" max="10" step="0.1" bind:value="thickness">
 
-  <label>Gap: {{gap}}%</label>
+  <label>Gap: {gap}%</label>
   <input type="range" min="0" max="100" step="1" bind:value="gap">
 </div>
 
 <Spinner 
-  size="{{size}}"
-  speed="{{speed}}"
-  color="{{color}}"
-  thickness="{{thickness}}"
-  gap="{{gap}}"
+  size="{size}"
+  speed="{speed}"
+  color="{color}"
+  thickness="{thickness}"
+  gap="{gap}"
 />
 
 <script>
