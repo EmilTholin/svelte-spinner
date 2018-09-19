@@ -2,6 +2,8 @@
 
 # Svelte Spinner
 
+<img src="Logotype Primary.png" width="40%" height="40%" />
+
 A Svelte SVG loading spinner.
 
 ## Install
