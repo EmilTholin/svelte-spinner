@@ -1,8 +1,6 @@
 [![npm][npm]][npm-url]
 
-# Svelte Spinner
-
-<img src="Logotype Primary.png" width="40%" height="40%" />
+<img src="Logotype Primary.png" alt="Svelte Spinner" width="40%" height="40%" />
 
 A Svelte SVG loading spinner.
 

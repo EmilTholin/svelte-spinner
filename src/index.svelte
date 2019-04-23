@@ -1,3 +1,15 @@
+<script>
+  export let size = 25;
+  export let speed = 750;
+  export let color = 'rgba(0,0,0,0.4)';
+  export let thickness = 2;
+  export let gap = 40;
+  export let radius = 10;
+
+  let dash;
+  $: dash = 2 * Math.PI * radius * (100 - gap) / 100
+</script>
+
 <svg
   height="{size}"
   width="{size}"
@@ -30,21 +42,3 @@
     to { transform: rotate(360deg); }
   }
 </style>
-
-<script>
-  export default {
-    data() {
-      return {
-        size: 25,
-        speed: 750,
-        color: 'rgba(0,0,0,0.4)',
-        thickness: 2,
-        gap: 40,
-        radius: 10
-      };
-    },
-    computed: {
-      dash: ({radius, gap}) => 2 * Math.PI * radius * (100 - gap) / 100
-    }
-  };
-</script>
