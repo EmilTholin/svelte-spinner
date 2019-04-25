@@ -28,10 +28,6 @@ Look at the [example folder][example-folder-url] for a basic working example.
 
 <script>
   import Spinner from 'svelte-spinner';
-
-  export default {
-    components: { Spinner }
-  };
 </script>
 ```
 
