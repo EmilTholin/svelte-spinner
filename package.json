@@ -1,6 +1,6 @@
 {
   "name": "svelte-spinner",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A Svelte SVG loading spinner",
   "svelte": "src/index.svelte",
   "module": "dist/index.mjs",
